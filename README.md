@@ -13,8 +13,9 @@ This project I focused on making my entire DOM in Javascript and making my code 
 
 ## Screenshots
 
-![Library Screenshot](./src/images/screenshot1.png)
-![Library with Books Screenshot](./src/images/screenshot1.png)
+![Home Page Screenshot](./src/images/screenshot1.png)
+![Menu Page Screenshot](./src/images/screenshot2.png)
+![About Page Screenshot](./src/images/screenshot3.png)
 
 ## Installation
 

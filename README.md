@@ -30,11 +30,11 @@ This project I focused on making my entire DOM in Javascript and making my code 
 2. Navigate to the folder  
    `cd restaurant-page`
 
-3. Open `index.html` in your browser (or run with Live Server)
+3. Install Dependencies with `npm install` in terminal.
 
-4. Install Dependencies with `npm install` in terminal.
+4. Build Project with `npm run build` in terminal. 
 
-5. Build Project with `npm run build` in terminal. Then open dist/index.html in browser or preview with VS Live Server.
+5. Open dist/index.html in browser or preview with VS Live Server.
 
 ## Tech Stack
 - Javascript

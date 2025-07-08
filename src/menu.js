@@ -26,6 +26,7 @@ export default function initMenu() {
     burgerPrice.classList.add("price-item");
     burgerPrice.textContent = "$40";
     burgerTitle.classList.add("name-item");
+    burgerTitle.classList.add("title-styling");
     burgerTitle.textContent = "Deluxe Burger";
     burgerItem.classList.add("menu-item");
     burgerItem.appendChild(burgerTitle);
@@ -47,6 +48,7 @@ export default function initMenu() {
     sushiPrice.classList.add("price-item");
     sushiPrice.textContent = "$70";
     sushiTitle.classList.add("name-item");
+    sushiTitle.classList.add("title-styling");
     sushiTitle.textContent = "Sushi Yum Yum";
     sushiItem.classList.add("menu-item");
     sushiItem.appendChild(sushiTitle);
@@ -68,6 +70,7 @@ export default function initMenu() {
     cakePrice.classList.add("price-item");
     cakePrice.textContent = "$25";
     cakeTitle.classList.add("name-item");
+    cakeTitle.classList.add("title-styling");
     cakeTitle.textContent = "Cake Delight";
     cakeItem.classList.add("menu-item");
     cakeItem.append(cakeTitle, cakePrice, cakeImg, cakeDesc);
@@ -86,6 +89,7 @@ export default function initMenu() {
     ramenPrice.classList.add("price-item");
     ramenPrice.textContent = "$35";
     ramenTitle.classList.add("name-item");
+    ramenTitle.classList.add("title-styling");
     ramenTitle.textContent = "Ramen Bowl";
     ramenItem.classList.add("menu-item");
     ramenItem.append(ramenTitle, ramenPrice, ramenImg, ramenDesc);
@@ -104,6 +108,7 @@ export default function initMenu() {
     friedChickenPrice.classList.add("price-item");
     friedChickenPrice.textContent = "$45";
     friedChickenTitle.classList.add("name-item");
+    friedChickenTitle.classList.add("title-styling");
     friedChickenTitle.textContent = "Fried Chicken Feast";
     friedChickenItem.classList.add("menu-item");
     friedChickenItem.append(friedChickenTitle, friedChickenPrice, friedChickenImg, friedChickenDesc);
@@ -122,6 +127,7 @@ export default function initMenu() {
     spaghettiPrice.classList.add("price-item");
     spaghettiPrice.textContent = "$30";
     spaghettiTitle.classList.add("name-item");
+    spaghettiTitle.classList.add("title-styling");
     spaghettiTitle.textContent = "Spaghetti Supreme";
     spaghettiItem.classList.add("menu-item");
     spaghettiItem.append(spaghettiTitle, spaghettiPrice, spaghettiImg, spaghettiDesc);

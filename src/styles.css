@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -46,6 +49,8 @@ nav {
     border: none;
     background-color: inherit;
     color: #ccc;
+    font-family: 'Luxurious Roman', serif;
+
 }
 
 .nav-btn:hover {
@@ -97,6 +102,11 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.title-styling {
+    font-family: 'Luxurious Roman', serif;
+
 }
 
 #dining-img {
@@ -151,8 +161,7 @@ nav {
 
     height: 97%;
     max-height: 90vh;
-    max-width: 800px;
-    width: 50%;
+    width: 80%;
     border-radius: 10px;
     padding: 10px;
 
@@ -161,15 +170,21 @@ nav {
 
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
+@media (max-width:1200px) {
+    .menu {
+        flex-wrap: nowrap;
+    }
+}
+
 .menu-item {
     background-color: rgba(0, 0, 0, 0.6);
-    width: 70%;
+    width: 500px;
     height: 200px;
     border: 5px solid black;
     padding: 10px;
@@ -184,7 +199,7 @@ nav {
 
 .name-item {
     grid-area: name;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .price-item {
@@ -193,6 +208,7 @@ nav {
     justify-content: flex-end;
     font-weight: bold;
     font-size: 2rem;
+    font-family: 'Luxurious Roman', serif;
 }
 
 .description-item {
@@ -200,6 +216,7 @@ nav {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 1.1rem;
 }
 
 .photo-item {
@@ -207,4 +224,12 @@ nav {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+/* About */
+
+.about-display {
+    width: 40%;
+    height: 90vh;
+    background-color: red;
 }

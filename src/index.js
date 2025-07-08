@@ -1,6 +1,7 @@
 import "./styles.css";
 import initHome from "./homepage";
 import initMenu from "./menu";
+import initAbout from "./about";
 
 function initPage() {
     const homeBtn = document.getElementById("home");
@@ -29,7 +30,7 @@ function createNavigation() {
             initMenu();
         }
         else if (id === "about") {
-            console.log("not done");
+            initAbout();
         }
     }
 

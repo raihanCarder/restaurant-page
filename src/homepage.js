@@ -20,6 +20,7 @@ export default function initHome() {
     homeText.classList.add("home-text");
 
     const title = document.createElement("h1");
+    title.classList.add("title-styling");
     title.textContent = "The Lux in Luxuries";
 
     const mainP = document.createElement("p");

@@ -8,7 +8,7 @@
 
 :root {
     --header-bg: rgba(0, 0, 0, 0.7);
-    --button-hvr-clr: #3e2723;
+    --button-hvr-clr: rgba(0, 0, 0, 0.6);
     --main-info-bg-clr: rgba(0, 0, 0, 0.1);
 }
 
@@ -36,14 +36,13 @@ nav {
     justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
-    margin: 5px;
     height: 50px;
 }
 
 .nav-btn {
     font-size: 1.5rem;
     padding: 10px 2rem;
-    border-radius: 10px;
+    height: 100%;
     border: none;
     background-color: inherit;
     color: #ccc;
@@ -51,6 +50,7 @@ nav {
 
 .nav-btn:hover {
     cursor: pointer;
+    border-bottom: 2px solid #bfa78a;
     background-color: var(--button-hvr-clr);
 }
 

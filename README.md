@@ -17,6 +17,11 @@ This project I focused on making my entire DOM in Javascript and making my code 
 ![Menu Page Screenshot](./src/images/screenshot2.png)
 ![About Page Screenshot](./src/images/screenshot3.png)
 
+##  Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- npm (comes with Node)
+
 ## Installation
 
 1. Clone the repo  
@@ -27,10 +32,15 @@ This project I focused on making my entire DOM in Javascript and making my code 
 
 3. Open `index.html` in your browser (or run with Live Server)
 
+4. Install Dependencies with `npm install` in terminal.
+
+5. Build Project with `npm run build` in terminal. Then open dist/index.html in browser or preview with VS Live Server.
+
 ## Tech Stack
 - Javascript
 - HTML
 - CSS
+- Webpack
 
 Created by Raihan Carder(https://github.com/raihanCarder)  
 Feel free to reach out!

@@ -138,3 +138,73 @@ nav {
     font-size: 1.3rem;
     font-weight: bold;
 }
+
+/* Menu Page */
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    color: white;
+
+    height: 97%;
+    max-height: 90vh;
+    max-width: 800px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+
+    overflow-y: auto;
+    text-overflow: ellipsis;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    height: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-areas: "name price" "desc img";
+    column-gap: 10px;
+}
+
+.name-item {
+    grid-area: name;
+    font-size: 1.8rem;
+}
+
+.price-item {
+    grid-area: price;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.description-item {
+    grid-area: desc;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.photo-item {
+    grid-area: img;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

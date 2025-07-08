@@ -1,6 +1,6 @@
 # Restaurant Page
 
-This project I focused on making my entire DOM in Javascript and making my code modular by using Webpack. This project helped me learn how to use Webpack to bundle all my files and how to use Import/Export.
+This project I focused on making my entire DOM in Javascript and making my code modular by using Webpack. This project helped me learn how to use Webpack to bundle all my files and how to use Import/Export in Javascript.
 
 ## Features
 
